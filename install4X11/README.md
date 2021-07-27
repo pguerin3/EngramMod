@@ -76,15 +76,19 @@ xkb_symbols "EngramMod" {
 ```
 
 ## Switching between layouts
-To interactively switch to a new layout with the right-alt (ie group key):
+To clear any extra layouts then:
 ```
 $ setxkbmap -layout us,us -variant ,EngramMod -option ""
+```
+
+To configure to interactively switch to a new layout with the right-alt (ie group key):
+```
 $ setxkbmap -layout us,us -variant ,EngramMod -option "grp:toggle"
 ```
 
 Add this to the .bash_profile to keep the configuration for next time:
 ```
-$ setxkbmap -layout us,us -variant ,EngramMod -option "grp:toggle"
+setxkbmap -layout us,us -variant ,EngramMod -option "grp:toggle"
 ```
 
 
