@@ -10,7 +10,7 @@ For the layout of the modified Engram layout, the letters are the same as for th
 
 ![](images/EngramMod.jpg)
 
-However the punctuation and regular expressions have been optimised.
+However the punctuation and regular expressions have been adjusted.
 
 ![](images/EngramModShft.jpg)
 
