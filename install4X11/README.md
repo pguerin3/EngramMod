@@ -4,6 +4,7 @@
 ## Installation
 
 Append this text to the xkb/symbols/us file of your X11 installation.
+eg /usr/share/X11/xkb/symbols/us
 
 ```
 // EngramMod 
@@ -24,29 +25,29 @@ xkb_symbols "EngramMod" {
 	key <AE08> { [            8,     asterisk ] };
 	key <AE09> { [            9,    		less ] };
 	key <AE10> { [            0,   		greater ] };
-	key <AE11> { [        minus,   underscore ] };
-	key <AE12> { [        equal,         plus ] };
+	key <AE11> { [  bracketleft,    braceleft ] };
+	key <AE12> { [ bracketright,   braceright ] };
 
 	key <AD01> { [            y,            Y ] };
 	key <AD02> { [            p,            P ] };
 	key <AD03> { [            o,            O ] };
 	key <AD04> { [            x,            X ] };
-	key <AD05> { [  bracketleft,    braceleft ] };
-	key <AD06> { [ bracketright,   braceright ] };
+	key <AD05> { [   apostrophe,     parenleft ] };
+	key <AD06> { [		quotedbl,   parenright ] };
 	key <AD07> { [            f,            F ] };
 	key <AD08> { [            c,            C ] };
 	key <AD09> { [            m,            M ] };
 	key <AD10> { [    		  w,        	W ] };
 	key <AD11> { [  		q,    		Q ] };
-	key <AD12> { [    semicolon,        colon ] };
+	key <AD12> { [    equal,        underscore  ] };
 	key <BKSL> { [    backslash,          bar ] };
 
 	key <AC01> { [            h,            H ] };
 	key <AC02> { [            i,            I ] };
 	key <AC03> { [            e,            E ] };
 	key <AC04> { [            a,            A ] };
-	key <AC05> { [        comma,        parenleft ] };
-	key <AC06> { [       period,      parenright] };
+	key <AC05> { [        comma,      semicolon] };
+	key <AC06> { [       period,      colon ] };
 	key <AC07> { [            t,            T ] };
 	key <AC08> { [            s,            S ] };
 	key <AC09> { [            n,            N ] };
@@ -58,7 +59,7 @@ xkb_symbols "EngramMod" {
 	key <AB03> { [            j,            J ] };
 	key <AB04> { [            u,            U ] };
 	key <AB05> { [        slash,     question ] };
-    key <AB06> { [   apostrophe,     quotedbl ] };
+    key <AB06> { [   	minus,     plus ] };
     key <AB07> { [            d,            D ] };
     key <AB08> { [            v,            V ] };
     key <AB09> { [       	  b,      		B ] };
@@ -74,7 +75,7 @@ xkb_symbols "EngramMod" {
 ```
 
 ## Switching between layouts
-To interactively switch to a new layout with the right-alt key:
+To interactively switch to a new layout with the right-alt (ie group key):
 ```
 $ setxkbmap -layout us,us -variant ,EngramMod -option ""
 $ setxkbmap -layout us,us -variant ,EngramMod -option "grp:toggle"

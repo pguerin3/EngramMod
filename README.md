@@ -10,9 +10,9 @@ For the layout of the modified Engram layout, the letters are the same as for th
 
 ![](images/EngramMod.jpg)
 
-However the layout of the punctuation is mostly the same as Qwerty.
+However the punctuation and regular expressions have been optimised.
 
-![](images/EngramMod-shift.jpg)
+![](images/EngramModShft.jpg)
 
 See the installation instructions for :
  + Windows
