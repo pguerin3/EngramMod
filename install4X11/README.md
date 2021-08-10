@@ -59,8 +59,8 @@ xkb_symbols "EngramMod" {
 	key <AB02> { [            k,            K ] };
 	key <AB03> { [            j,            J ] };
 	key <AB04> { [            u,            U ] };
-	key <AB05> { [        slash,     question ] };
-        key <AB06> { [        minus,         plus ] };
+	key <AB05> { [        minus,	    slash ] };
+        key <AB06> { [         plus,     question ] };
         key <AB07> { [            d,            D ] };
         key <AB08> { [            v,            V ] };
         key <AB09> { [       	  b,      	B ] };
