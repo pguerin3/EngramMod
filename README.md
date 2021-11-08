@@ -8,11 +8,11 @@ https://github.com/binarybottle/engram
 
 For the layout of the modified Engram layout, the letters are the same as for the original Engram layout.
 
-![](images/EngramMod.jpg)
+![](images/EngramMd.jpg)
 
 However the punctuation and regular expressions have been adjusted.
 
-![](images/EngramModShft.jpg)
+![](images/EngramMdShft.jpg)
 
 See the installation instructions for :
  + Windows

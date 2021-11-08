@@ -29,42 +29,42 @@ xkb_symbols "EngramMod" {
 	key <AE11> { [  bracketleft,    braceleft ] };
 	key <AE12> { [ bracketright,   braceright ] };
 
-	key <AD01> { [            y,            Y ] };
-	key <AD02> { [            p,            P ] };
+	key <AD01> { [            b,            B ] };
+	key <AD02> { [            y,            Y ] };
 	key <AD03> { [            o,            O ] };
-	key <AD04> { [            x,            X ] };
+	key <AD04> { [            u,            U ] };
 	key <AD05> { [   apostrophe,    parenleft ] };
 	key <AD06> { [	   quotedbl,   parenright ] };
-	key <AD07> { [            f,            F ] };
-	key <AD08> { [            c,            C ] };
-	key <AD09> { [            m,            M ] };
-	key <AD10> { [    	  w,        	W ] };
-	key <AD11> { [ 		  q,   		Q ] };
+	key <AD07> { [            l,            L ] };
+	key <AD08> { [            d,            D ] };
+	key <AD09> { [            w,            W ] };
+	key <AD10> { [    	  v,        	V ] };
+	key <AD11> { [ 		  z,   		Z ] };
 	key <AD12> { [        equal,   underscore ] };
 	key <BKSL> { [    backslash,          bar ] };
 
-	key <AC01> { [            h,            H ] };
+	key <AC01> { [            c,            C ] };
 	key <AC02> { [            i,            I ] };
 	key <AC03> { [            e,            E ] };
 	key <AC04> { [            a,            A ] };
 	key <AC05> { [        comma,     semicolon] };
 	key <AC06> { [       period,        colon ] };
-	key <AC07> { [            t,            T ] };
-	key <AC08> { [            s,            S ] };
-	key <AC09> { [            n,            N ] };
-	key <AC10> { [            r,            R ] };
-	key <AC11> { [		  z,   		Z ] };
+	key <AC07> { [            h,            H ] };
+	key <AC08> { [            t,            T ] };
+	key <AC09> { [            s,            S ] };
+	key <AC10> { [            n,            N ] };
+	key <AC11> { [		  q,   		Q ] };
 
 	key <AB01> { [            g,            G ] };
-	key <AB02> { [            k,            K ] };
+	key <AB02> { [            x,            X ] };
 	key <AB03> { [            j,            J ] };
-	key <AB04> { [            u,            U ] };
+	key <AB04> { [            k,            K ] };
 	key <AB05> { [        minus,	    slash ] };
         key <AB06> { [         plus,     question ] };
-        key <AB07> { [            d,            D ] };
-        key <AB08> { [            v,            V ] };
-        key <AB09> { [       	  b,      	B ] };
-	key <AB10> { [        	  l,     	L ] };
+        key <AB07> { [            r,            R ] };
+        key <AB08> { [            m,            M ] };
+        key <AB09> { [       	  f,      	F ] };
+	key <AB10> { [        	  p,     	P ] };
 
 	key <SPCE> { [        space,        space ] };
 
